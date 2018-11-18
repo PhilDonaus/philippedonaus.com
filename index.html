@@ -8,170 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-      .main_parent{
-        background-color: black;
-        height: 100vh;
-        margin: 0 auto;
-        overflow: hidden;
-      }
-      .glass-cockpit{
-        height:50vh;
-        z-index:1;
-        overflow:hidden;
-        padding:0;
-        filter: grayscale(1);
 
-      }
-
-      .glass-cockpit img:{
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-     .glass-cockpit:hover{
-      transition: .5s ease;
-      filter: grayscale(0);
-      }
-      .center-logo{
-        position: absolute;
-        width:400px;
-        height:400px;
-        margin: 0 auto;
-        z-index: 3;
-        left:50%;
-        top:50%;
-        margin-top: -200px;
-        margin-left: -200px;
-        border-radius:50%;
-        border: 10px solid white;
-      }
-      .mylogo{
-        position:absolute;
-        top:0;
-        bottom:0;
-        vertical-align: middle;
-        max-width: 100%;
-        top:40%;
-
-
-      }
-      .fit-image{
-        size:auto;
-        width:100%;
-        max-width:100%;
-        min-height: 100%;
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      .my-menu{
-        background-color: black;
-        text-align: center;
-        opacity:0;
-        height: 100%;
-        width: 100%;
-        border-radius: 50%;
-        z-index:4;
-        position:absolute;
-
-      }
-      .my-menu:hover{
-        transition: .5s ease;
-        opacity:1;
-        vertical-align: middle;
-
-      }
-      .my-menu a{
-        color:white;
-        text-align: center;
-        padding: 18px 16px;
-        text-decoration: none;
-        font-size: 25px;
-        vertical-align: middle;
-      }
-      .profile-card{
-        background-color: black;
-        padding: 0px;
-        height:100%;
-        margin-left: 0px;
-        overflow:hidden;
-      }
-      .profile-card img{
-        position: relative;
-        max-height:100%;
-        max-width: 550px;
-        margin-top:auto;
-        margin-bottom: auto;
-        display:block;
-        vertical-align: middle;
-
-
-        
-      }
-      .text-card {
-        background-color: black;
-      }
-      .text-card h1{
-        color:white;
-        text-align: center;
-        padding: 15px;
-      }
-      .text-card p{
-        color:white;
-        text-align: left;
-        padding: 20px;
-      }
-
-      .contain-flex{
-        display: flex;
-
-      }
-      .row{overflow: hidden;}
-
-      .my-card-holder:{height:50vh; margin:0; padding:0;}
-
-      .on-glass{
-        position:absolute;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 2;
-        max-height: 100%; 
-        border:none; 
-        border-radius: 0%;
-      }
-
-      .on-glass p,h2,h3{
-        color:white;
-        background-color: rgba(0,0,0,0.4);
-        padding:5px;
-      }
-
-
-      .carousel-item {
-        overflow:hidden;
-        height:60vh;
-        line-height: 30vh;
-      }
-
-      .carousel-item img{
-        vertical-align: middle;
-        max-height: auto;
-        width:100vw;
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-      }
 
 
     </style>
+    <link href="home_philippe_css.css" rel="stylesheet" type="text/css" media="all">
     <title>Philippe Donaus</title>
   </head>
   <body>
@@ -221,7 +62,7 @@
       </div>
       <img src="index_img/stevens_photo.jpg" class="fit-image" style="filter:brightness(60%); min-height:100%;">
     </div>
-    <div class="container-fluid" style="padding: 0px; max-height:60vh; background-color: black;"> 
+    <div class="container-fluid" style="padding: 0px; height:80vh; background-color: black;">  
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -230,12 +71,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row on-glass">
-              <div class="col-sm-2"></div>
-              <div class="col-sm-6" style="color: white; padding:5px;">
+            <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-6 on-glass">
                 <h2>iCIMS Inc, Holmdel, NJ</h2>
-                <h3>Data Analyst Intern, June 2018 - Present</h3>
-                <p>As an intern, Philippe works for iCIMS to help develop and improve the CRM and other Data providors. He works with the Cloud Services team to
+                
+                <p>As an intern, Philippe works for iCIMS to help develop and improve the CRM and other Data providors. He works with the Cloud Services team which is responsible for internaly used Customer Relationship Management software, Human Resource Software, and 3rd party data providers. Philippe specifically focuses on data minning, data validation, and data enrichment. Some of the tasks require a robust knowledge of 3rd party data sources using REST API, integrating data sources into CRMs using Java and SQL, and validating current data by using machine learing to identify bad data points.</p>
+                <p>Lastly, he ejoys the comfort of working with Integration Architects, Application Engineers, and Application Administrators who know the CRM and other platforms. In addition, he works directly with Data Stewards and Data validators who support the business sales and finance processes.</p>
               </div>
             </div>
             <img class="d-block w-100" src="index_img/iCIMS_Stevens.jpg" alt="First slide" style="">
@@ -260,3 +102,5 @@
 
   </body>
 </html>
+
+<!-- HOW THE FUCK AM I EXPECTED TO DO ANYTHING?? WHAT THE HELL IS GOING ON!!!! I"M MOTHER FUCKING SCREAAAMMING!!! --->

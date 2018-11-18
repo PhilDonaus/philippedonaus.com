@@ -1,0 +1,165 @@
+.main_parent{
+        background-color: black;
+        height: 100vh;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .glass-cockpit{
+        height:50vh;
+        z-index:1;
+        overflow:hidden;
+        padding:0;
+        filter: grayscale(1);
+
+      }
+
+      .glass-cockpit img:{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+     .glass-cockpit:hover{
+      transition: .5s ease;
+      filter: grayscale(0);
+      }
+      .center-logo{
+        position: absolute;
+        width:400px;
+        height:400px;
+        margin: 0 auto;
+        z-index: 3;
+        left:50%;
+        top:50%;
+        margin-top: -200px;
+        margin-left: -200px;
+        border-radius:50%;
+        border: 10px solid white;
+      }
+      .mylogo{
+        position:absolute;
+        top:0;
+        bottom:0;
+        vertical-align: middle;
+        max-width: 100%;
+        top:40%;
+
+
+      }
+      .fit-image{
+        size:auto;
+        width:100%;
+        max-width:100%;
+        min-height: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .my-menu{
+        background-color: black;
+        text-align: center;
+        opacity:0;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        z-index:4;
+        position:absolute;
+
+      }
+      .my-menu:hover{
+        transition: .5s ease;
+        opacity:1;
+        vertical-align: middle;
+
+      }
+      .my-menu a{
+        color:white;
+        text-align: center;
+        padding: 18px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        vertical-align: middle;
+      }
+      .profile-card{
+        background-color: black;
+        padding: 0px;
+        height:100%;
+        margin-left: 0px;
+        overflow:hidden;
+      }
+      .profile-card img{
+        position: relative;
+        max-height:100%;
+        max-width: 550px;
+        margin-top:auto;
+        margin-bottom: auto;
+        display:block;
+        vertical-align: middle;
+      }
+
+      .text-card {
+        background-color: black;
+
+      }
+      .text-card h1{
+        color:white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .text-card p{
+        color:white;
+        text-align: left;
+        padding: 20px;
+      }
+
+      .contain-flex{
+        display: flex;
+      }
+
+      .row{
+        overflow: hidden;
+      }
+
+      .my-card-holder:{height:50vh; margin:0; padding:0;
+
+      }
+
+      .on-glass{
+        position:absolute;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 2;
+        max-height: 100%; 
+        border:none; 
+        border-radius: 0%;
+      }
+
+      .on-glass p,h2,h3{
+        color:white;
+        background-color: rgba(0,0,0,0.4);
+        padding:5px;
+      }
+
+
+      .carousel-item {
+        overflow:hidden;
+        height:80vh;
+        line-height: 30vh;
+      }
+
+      .carousel-item img{
+        vertical-align: middle;
+        max-height: auto;
+        width:100vw;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+      }
