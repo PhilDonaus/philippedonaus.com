@@ -26,9 +26,9 @@
     <div class="container-fluid main_parent" style="margin: 0 auto; padding:0;">
       <div class="center-logo circleBase">
         <div class="my-menu my-auto ">
-          <ul class="nav flex-column">
+          <ul class="nav flex-column" style="padding-top: 25px;">
             <a href="#About">About</a>
-            <a href="">Resume</a>
+            <a href="#Resume">Resume</a>
             <a href="">Contact</a>
             <a href="">Navigation</a>
           </ul> 
@@ -39,7 +39,7 @@
         <img src="index_img/backdrop_web.jpg" class="fit-image">
       </div>
       <div class="container-fluid glass-cockpit"style="max-height: ">
-        <img src="index_img/chicago_web.jpg" class="fit-image">
+        <img src="index_img/backdrop2.jpg" class="fit-image">
       </div>
     </div>
     <div class="container-fluid my-card-holder" > <!--- About --->
@@ -49,21 +49,28 @@
         </div>
         <div class="text-card col-sm-6" style="color: black; padding: 20px;">
           <a name="About"></a>
-          <h1>About</h1>
+          <h1 style="margin:0px;">About</h1>
           <p>Stevens Institute of Technology, May 2019, B.S. Quantitative Finance</p>
-          <p>Philippe grew up in Franklin Township, NJ. He currently holds postions working for iCIMS, in Holmdel, NJ as a Data Sciencist Intern. He enjoys reading about SpaceX and other aerospace company endevours for interplanetary travel.</p>
+          <p>I grew up in Franklin Township, NJ. I hold position working for iCIMS, in Holmdel, NJ as a Data Sciencist Intern.</p>
+          <p>My goal is to lead a business that focuses on identifying practical uses for technology to solve the problems faced by underserved populations around the globe. I believe in equitable access to 21st century technology is the future.</p>
         </div>
       </div>
     </div>
-    <div class="container-fluid my-card-holder glass-cockpit" style="overflow: hidden;">
-      <div class="row on-glass" style="padding: 50px">
-        <h1 style="color: white; font-size: 40px;">Education</h1>
-        <p>Philippe started at Stevens in September 2014 as an Engineering Physics student. After his first fall semester, he then changed his major to Quantitative Finance. From that switch, his interest in Data Science became more apparent.</p>
+    <div class="container-fluid my-card-holder glass-cockpit" style="overflow: hidden; max-height: 70vh; background-color: black;">
+      <div class="row on-glass" style="height: 70vh;" >
+        <div class="col-md-4" style="padding: 10px 0px;">
+          <h1 style="color: white; font-size: 40px;">Education</h1>
+          <p>I started at Stevens in September 2014 as an Engineering Physics student. After my first fall semester, I changed my major to Quantitative Finance. From that switch, my interest in Data Science became more apparent to me and a degree in Business and Technology with a concentration in Computer Science fit my skills better.</p>
+        </div>
+        <div class="col-md-8" style="overflow: hidden; min-height: 50%;">
+          <img src="index_img/stevens_photo.jpg" class="fit-image">
+        </div>
       </div>
-      <img src="index_img/stevens_photo.jpg" class="fit-image" style="filter:brightness(60%); min-height:100%;">
+      
     </div>
-    <div class="container-fluid" style="padding: 0px; height:80vh; background-color: black;">  
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <a name="Resume"></a>
+    <div class="container-fluid" style="padding: 0px; height:60vh; background-color: black;">  
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -72,35 +79,93 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
-              <div class="col-sm-1"></div>
-              <div class="col-sm-6 on-glass">
-                <h2>iCIMS Inc, Holmdel, NJ</h2>
+              <div class="col-md-8"> </div>
+              <div class="col-sm-12 col-12 col-md-4 on-glass">
+                <h2 style="margin-top: 10px;">iCIMS Inc, Holmdel, NJ</h2>
                 
-                <p>As an intern, Philippe works for iCIMS to help develop and improve the CRM and other Data providors. He works with the Cloud Services team which is responsible for internaly used Customer Relationship Management software, Human Resource Software, and 3rd party data providers. Philippe specifically focuses on data minning, data validation, and data enrichment. Some of the tasks require a robust knowledge of 3rd party data sources using REST API, integrating data sources into CRMs using Java and SQL, and validating current data by using machine learing to identify bad data points.</p>
-                <p>Lastly, he ejoys the comfort of working with Integration Architects, Application Engineers, and Application Administrators who know the CRM and other platforms. In addition, he works directly with Data Stewards and Data validators who support the business sales and finance processes.</p>
+                <p style="max-height: 100%;"> I work for iCIMS to help develop and improve the quality of data in the CRM and integrate data from external Data providors. I work with the Cloud Services team which is responsible for internaly used platforms. My tasks focus on data minning, data validation, and data enrichment. Tasks require knowledge of REST API, web development, and validating current data by using machine learing. The goal is to identify "bad" data, and it's causes.</p>
               </div>
             </div>
-            <img class="d-block w-100" src="index_img/iCIMS_Stevens.jpg" alt="First slide" style="">
+            <img class="d-block mw-100" src="index_img/iCIMS_Stevens.jpg" alt="First slide" style="">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="index_img/chicago_web.jpg" alt="Second slide">
+            <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-12 col-12 col-md-4 on-glass">
+                <h2 style="margin-top: 10px;">Math Genie, East Brunswick, NJ</h2>
+                
+                <p style="max-height: 100%;"> I am a Mathematics Teacher, and Programming Teacher at Math Genie. My responsibilities consist of leading a classroom of 3 to 5 students in abacus math or html web development. I also work on developing the HTML Web Development curriculum for young students. The goal is to introduce an HTML introduction to Web Development course for adults.</p>
+              </div>
+            </div>
+            <img class="d-block w-100" src="index_img/interns.jpg" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="index_img/chicago_web.jpg" alt="Third slide">
+            <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-12 col-12 col-md-4 on-glass">
+                <h2 style="margin-top: 10px;">Stevens Institute of Technology, Hoboken, NJ</h2>
+                
+                <p style="max-height: 100%;"> At Stevens Institute of Technology, I served as an IT Consultant. I worked to diagnose hardware and software issues on Univeristy owned devices for Students, Faculty, and Staff. I gained knowledge of Networking Equipment, Server Architecture, and computer hardware replacement.</p>
+              </div>
+            </div>
+            <img class="d-block w-100 mh-200" src="index_img/improvpic.jpg" alt="Third slide">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <!--a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
-        </a>
+        </a--->
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+      </div>
+      
+    </div>
+    <div class="container-fluid skill-set">
+      
+      <div class ="row">
+        <a name="Skills"></a>
+        <div class="col-md-6">
+          <h2 style="float:50%;">Skills</h2>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, PHP, React-Bootstrap
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+              <span class="sr-only">75% Complete</span>
+            </div>
+          </div>
+          <h3>Server Side Development</h3>
+          <p>Python, Java, Apex, R, SQL, REST API</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; color: white;">
+              <span class="sr-only">90% Complete</span>
+            </div>
+          </div>
+          <h3>Machine Learning</h3>
+          <p>Neural Networks, Microsoft Azure Sentiment Analysis, Einstein AI (Salesforce)  </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%; color: white;">
+              <span class="sr-only">30% Complete</span>
+            </div>
+          </div>
+          <h3>Data Analysis</h3>
+          <p>Regression Analysis, Forecasting, Financial Modeling, Data Governance and Stewardship </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%; color: white;">
+              <span class="sr-only">70% Complete</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="background-color: darkgray; ">
+          <h2 style="background-color: darkgray; color:black;">Projects</h2>
+          <h3 style="background-color: darkgray;color:black;">Salesforce Component - iCIMS, Holmdel, NJ</h3>
+          <p style="background-color: darkgray;color:black;">Developed a Salesforce Component that allows for validation, monitoring, and tracking of customers using our competitors software. Uses API requests and server side processing to eliminate a 30-minute step in the sales process. Impacts corporate strategy, by providing additional data points for analysis. </p>
+
+        </div> 
       </div>
     </div>
 
   </body>
 </html>
 
-<!-- HOW THE FUCK AM I EXPECTED TO DO ANYTHING?? WHAT THE HELL IS GOING ON!!!! I"M MOTHER FUCKING SCREAAAMMING!!! --->
