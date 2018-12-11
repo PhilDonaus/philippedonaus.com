@@ -1,0 +1,58 @@
+.blackboard{
+	background-color:black;
+
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 120%;
+}
+
+.panes {
+	height: 300px;
+	overflow:hidden;
+}
+
+.pro-pic {
+	vertical-align: middle;
+	width:300px;
+	height:300px;
+	margin: auto;
+	background-color: black;
+	border-radius: 50%;
+	border: 5px solid white;
+	transform: translate(0,50%);
+}
+
+.pro-pic img{
+	filter: grayscale(1);
+}
+
+.the-profile {
+	height:100vh;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.windows {
+	background-color: white;
+	height:100%;
+	width: 100%;
+}
+
+
+
+
+/* 
+Need to remember items:
+
+box-shadow: 10px 10px 15px rgba(225,225,225,0.3); */
