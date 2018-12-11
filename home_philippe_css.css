@@ -72,13 +72,18 @@
         position:absolute;
 
       }
-      .my-menu:hover{
+      .my-menu a {
+        visibility: hidden;
+      }
+
+      .my-menu:hover {
         transition: .5s ease;
         opacity:1;
         vertical-align: middle;
 
       }
-      .my-menu a{
+      .my-menu:hover a{
+        visibility: visible;
         color:white;
         text-align: center;
         padding: 18px 16px;
