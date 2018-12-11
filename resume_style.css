@@ -17,10 +17,39 @@
     max-width: 120%;
 }
 
+.over-me {
+	padding:10px;
+	color: white;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgb(0,0,0,0.7);
+	vertical-align: center;
+	font-size:13px;
+}
+
 .panes {
 	height: 300px;
 	overflow:hidden;
+	filter:grayscale(0);
 }
+
+.panes:hover {
+	transition: ease 0.5s;
+	filter:grayscale(1);
+}
+
+.panes:hover .over-me {
+	opacity: 1;
+}
+
 
 .pro-pic {
 	vertical-align: middle;
@@ -30,23 +59,32 @@
 	background-color: black;
 	border-radius: 50%;
 	border: 5px solid white;
-	transform: translate(0,50%);
+	margin-top:20%;
 }
 
 .pro-pic img{
 	filter: grayscale(1);
 }
 
+.pro-text{
+	align-items:center;
+	text-align: center;
+	margin:auto;
+	color:white;
+	padding:10px;
+	font-size:12px;
+}
+
+
 .the-profile {
-	height:100vh;
-	vertical-align: middle;
+	margin:auto;
 	align-items: center;
+	color:white;
 }
 
 .windows {
 	background-color: white;
 	height:100%;
-	width: 100%;
 }
 
 
