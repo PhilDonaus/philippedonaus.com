@@ -20,6 +20,12 @@
 	height:100%;
 }
 
+.carousel-indicators li{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+}
+
 
 .eye-glass {
 	width:370px;
@@ -78,10 +84,31 @@
 	vertical-align: middle;
 }
 
+.over-you{
+	padding: 150px 10px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	transition: .5s ease;
+	background-color: rgb(0,0,0,0.9);
+	vertical-align: center;
+	font-size:13px;
+	text-overflow: wrap;
+	z-index: 2
+}
+
 .panes {
 	height: 370px;
 	overflow:hidden;
 	filter:grayscale(0);
+	text-align: center;
 }
 
 .panes:hover {
@@ -92,6 +119,11 @@
 .panes:hover .over-me {
 	transition: ease 0.5s;
 	opacity: 1;
+}
+
+.panes:hover .over-you {
+	transition: ease 0.5s;
+	opacity: 0;
 }
 
 
