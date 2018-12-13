@@ -14,12 +14,12 @@
 
 .blackboard{
 	background-color:black;
-
 }
 
 .carousel{
-	height:350px;
+	height:100%;
 }
+
 
 .eye-glass {
 	width:370px;
@@ -28,6 +28,7 @@
 	border-radius:50%;
 	overflow:hidden;
 	padding:0px;
+	margin-top:20px;
 	margin-bottom:20px;
 }
 
@@ -41,6 +42,17 @@
 
 .fill img {
     flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width:120%;
+
+}
+
+
+.flood {
+	flex-shrink: 0;
+    flex-grow: 0;
     min-width: 100%;
     min-height: 100%;
     max-width: 120%;
@@ -78,6 +90,7 @@
 }
 
 .panes:hover .over-me {
+	transition: ease 0.5s;
 	opacity: 1;
 }
 
@@ -105,6 +118,14 @@
 	padding:10px;
 	font-size:12px;
 }
+
+.scope {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+
 
 .space:hover .back-arrow{
 	opacity:1;
