@@ -14,6 +14,7 @@
 
 .blackboard{
 	background-color:black;
+	color:white;
 }
 
 .carousel{
@@ -166,6 +167,15 @@
 
 .small-text {
 	padding:50px;
+}
+
+
+.text-box {
+	color:white;
+	box-shadow: 0 10px 15px white;
+	margin:auto;
+	overflow:wrap;
+
 }
 
 

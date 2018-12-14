@@ -38,6 +38,7 @@
         margin-left: -200px;
         border-radius:50%;
         border: 10px solid white;
+        background-color: rgba(0,0,0,0.5);
       }
       .mylogo{
         position:absolute;
