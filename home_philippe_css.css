@@ -199,17 +199,20 @@
 }
 
 
-.doorway {
-
+.open-top{
+    transform: translate(0,-45%);
 }
 
-.doorway:hover .top-door{
+.open-bottom{
+    transform: translate(0,45%);
+}
+
+.top-door{
   transition: ease 1.2s;
-  transform: translate(0,-45%);
 }
 
-.doorway:hover .bottom-door{
-    transition: ease 1.2s;
-  transform: translate(0,45%);
+.bottom-door{
+  transition: ease 1.2s;
 }
+
 
