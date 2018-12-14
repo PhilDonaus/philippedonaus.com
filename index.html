@@ -26,15 +26,21 @@
       function unfold() {
         var top = document.getElementById("top");
         var bottom = document.getElementById("bottom");
+        var circle = document.getElementById("circle");
         
         top.classList.toggle("open-top");
         bottom.classList.toggle("open-bottom");
+        circle.classList.toggle("open-and-shrink");
+      }
+
+      function fold() {
+        var top
       }
       
     </script>
     <!--Begin Development of Webpage --->
     <div class="container-fluid main_parent" style="margin: 0 auto; padding:0;">
-      <div class="center-logo circleBase">
+      <div id="circle" class="center-logo circleBase">
         <div class="my-menu my-auto ">
           <ul class="nav flex-column" style="padding-top: 25px;">
             <a href="About.html">About</a>

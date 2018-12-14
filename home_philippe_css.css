@@ -39,6 +39,7 @@
   border-radius:50%;
   border: 10px solid white;
   background-color: rgba(0,0,0,0.5);
+  transition: ease 1.25s;
 }
 .mylogo{
   position:absolute;
@@ -200,11 +201,15 @@
 
 
 .open-top{
-    transform: translate(0,-45%);
+    transform: translate(0,-44%);
 }
 
 .open-bottom{
-    transform: translate(0,45%);
+    transform: translate(0,44%);
+}
+
+.open-and-shrink{
+    transform: translate(0,44%) scale(0.7);
 }
 
 .top-door{
