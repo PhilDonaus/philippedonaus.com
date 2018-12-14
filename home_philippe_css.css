@@ -107,20 +107,26 @@
   overflow:hidden;
 }
 
-.text-card {
-  background-color: black;
-
+.text-card-right{
+    transition: ease 1s;
+    color:white;
+    text-align: left;
+    padding: 20px;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:49vh;
+    right:25vw;
 }
-.text-card h1{
-  color:white;
-  text-align: center;
-  padding: 15px;
-}
 
-.text-card p{
-  color:white;
-  text-align: left;
-  padding: 20px;
+.text-card-left{
+    transition: ease 1s;
+    color:white;
+    text-align: right;
+    padding: 20px;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:49vh;
+    left:25vw;
 }
 
 .contain-flex{
@@ -129,13 +135,6 @@
 
 .row{
   overflow: hidden;
-}
-
-.my-card-holder:{
-  height:50vh; 
-  margin:0; 
-  padding:0;
-
 }
 
 .on-glass{
@@ -161,44 +160,19 @@
   
 }
 
-.carousel-item img{
-  vertical-align: middle;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-height: 60vh;
-}
-
-
-.skill-set {
-  min-height: 70vh;
-  background-color: black;
-  padding: 15px 10px;
-
-}
-
-.skill-set h1,h2,h3,p {
-  color:white;
-  background-color: black;
-}
-
-.progress {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.progress-bar {
-  background-color: red;
-}
-
 .container-fluid {
   padding-bottom:10px;
   background-color: black;
   overflow:hidden;
 }
 
+.invisable{
+    opacity: 0;
+}
+
+.visable{
+    opacity: 1;
+}
 
 .open-top{
     transform: translate(0,-44%);
@@ -219,5 +193,6 @@
 .bottom-door{
   transition: ease 1.2s;
 }
+
 
 
