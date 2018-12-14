@@ -170,12 +170,14 @@
 }
 
 
-.text-box {
+.text-box-large {
 	color:white;
 	box-shadow: 0 10px 15px white;
 	margin:auto;
 	overflow:wrap;
-
+	min-width: 370px;
+	max-width: 800px;
+	padding: 50px;
 }
 
 
