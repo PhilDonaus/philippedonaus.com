@@ -6,7 +6,7 @@
 }
 .glass-cockpit{
   height:50vh;
-  z-index:1;
+  z-index:5;
   overflow:hidden;
   padding:0;
   filter: grayscale(1);
@@ -31,7 +31,7 @@
   width:400px;
   height:400px;
   margin: 0 auto;
-  z-index: 3;
+  z-index: 10;
   left:50%;
   top:50%;
   margin-top: -200px;
@@ -70,7 +70,7 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  z-index:4;
+  z-index:12;
   position:absolute;
 
 }
@@ -107,30 +107,27 @@
   overflow:hidden;
 }
 
-.text-card-right{
-    transition: ease 1s;
-    color:white;
-    text-align: left;
-    padding: 20px;
-    flex-wrap: nowrap;
-    position:absolute;
-    top:49vh;
-    right:25vw;
-}
 
-.text-card-left{
-    transition: ease 1s;
+.text-card{
     color:white;
-    text-align: right;
+    text-align: center;
     padding: 20px;
     flex-wrap: nowrap;
-    position:absolute;
-    top:49vh;
-    left:25vw;
+    margin:auto;
 }
 
 .contain-flex{
   display: flex;
+}
+
+.fix-center{
+    position:absolute;
+    top:33vh;
+    transition:ease 0.8s;
+    margin:auto;
+    width:100%;
+    text-align:center;
+    z-index:2;
 }
 
 .row{
@@ -141,7 +138,7 @@
   position:absolute;
   margin-left: auto;
   margin-right: auto;
-  z-index: 2;
+  z-index: 5;
   max-height: 100%; 
   border:none; 
   border-radius: 0%;
@@ -167,11 +164,12 @@
 }
 
 .invisable{
-    opacity: 0;
+    visibility: hidden;
+    transition: ease .6s;
 }
 
-.visable{
-    opacity: 1;
+.visable {
+    visibility: visible;
 }
 
 .open-top{
