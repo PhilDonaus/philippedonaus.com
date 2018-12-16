@@ -111,9 +111,10 @@
 .text-card{
     color:white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     flex-wrap: nowrap;
     margin:auto;
+    z-index:1;
 }
 
 .contain-flex{
@@ -122,7 +123,7 @@
 
 .fix-center{
     position:absolute;
-    top:33vh;
+    top:40vh;
     transition:ease 0.8s;
     margin:auto;
     width:100%;
@@ -173,15 +174,15 @@
 }
 
 .open-top{
-    transform: translate(0,-44%);
+    transform: translate(0,-35%);
 }
 
 .open-bottom{
-    transform: translate(0,44%);
+    transform: translate(0,35%);
 }
 
 .open-and-shrink{
-    transform: translate(0,44%) scale(0.7);
+    transform: translate(0,35%) scale(0.7);
 }
 
 .top-door{

@@ -15,6 +15,7 @@
 .blackboard{
 	background-color:black;
 	color:white;
+	height:100vh;
 }
 
 .carousel{
@@ -158,8 +159,6 @@
 	overflow:hidden;
 }
 
-
-
 .space:hover .back-arrow{
 	opacity:1;
 	transition: ease .5s;
@@ -172,7 +171,6 @@
 
 .text-box-large {
 	color:white;
-	box-shadow: 0 10px 15px white;
 	margin:auto;
 	overflow:wrap;
 	min-width: 370px;
