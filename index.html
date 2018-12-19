@@ -21,41 +21,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
-
-      function unfold() {
-        var top = document.getElementById("top");
-        var bottom = document.getElementById("bottom");
-        var circle = document.getElementById("circle");
-        var information = document.getElementById("information");
-        
-        if (information.classList.contains("visable")) {
-          information.classList.replace("visable","invisable")
-        }
-        else {
-          information.classList.replace("invisable","visable");
-        }
-        top.classList.toggle("open-top");
-        bottom.classList.toggle("open-bottom");
-        circle.classList.toggle("open-and-shrink");
-      }
-
-      function fold() {
-        var top = document.getElementById("top");
-        var bottom = document.getElementById("bottom");
-        var circle = document.getElementById("circle");
-        var information = document.getElementById("information");
-
-        top.classList.remove("open-top");
-        bottom.classList.remove("open-bottom");
-        circle.classList.remove("open-and-shrink");
-        information.classList.replace("visable","invisable");
-        
-      }
-
-
-      
-    </script>
+    <script src="javascript/homepage.js"></script>
     <!--Begin Development of Webpage --->
     <div class="container-fluid main_parent" style="margin: 0 auto; padding:0;" >
       <div id="circle" class="center-logo circleBase">
