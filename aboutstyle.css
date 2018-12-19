@@ -17,9 +17,20 @@
 	background-color:black;
 	color:white;
 	min-height:100vh;
-	width:100vw;
+	max-width:100vw;
+	overflow:hidden;
 	margin:0;
 
+}
+
+.center-text{
+	text-align: center;
+	padding:0;
+
+}
+
+.center-text p {
+	padding:20px;
 }
 
 .coaster {
@@ -36,9 +47,8 @@
 
 .container-fluid {
 	padding:0;
-	width:100vw;
+	max-width:100vw;
 }
-
 
 .fill {
     display: flex;
@@ -100,6 +110,7 @@
 	height:60vh;
 	transition: ease 0.5s;
 	padding:0;
+
 }
 
 
