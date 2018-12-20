@@ -1,3 +1,13 @@
+footer {
+    text-align: right;
+    color:white;
+    font-size: 12px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding: 20px;
+}
+
 .main_parent{
   background-color: black;
   height: 100vh;

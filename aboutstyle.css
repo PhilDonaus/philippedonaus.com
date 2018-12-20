@@ -1,11 +1,22 @@
+footer {
+    text-align: right;
+    color:white;
+    font-size: 12px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    padding: 0px 20px;
+}
+
 .back-arrow {
-	position:absolute;
+	position:fixed;
 	opacity:1;
 	left:0;
 	top:0;
 	color:white;
 	padding: 20px;
-	z-index:3;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 100;
 }
 
 .back-arrow a {
