@@ -203,5 +203,20 @@ footer {
   transition: ease 1.2s;
 }
 
+button {
+    color:black;
+    background-color:white;
+    
+}
 
-
+.floater {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:40px;
+    height:20px;
+    background-color: blue;
+    z-index:100;
+    transition: ease 0.5s;
+    translate:50% ;
+}
