@@ -204,19 +204,24 @@ footer {
 }
 
 button {
+    position:absolute;
+    left:50%;
+    top:36%;
+    z-index:100;
+    transition: top ease 0.5s;
     color:black;
     background-color:white;
+    border: solid white 10px;
+    transform: translate(-50%);
     
 }
 
+
+button p {
+    font-style: bold;
+    font-size: 14px;
+}
+
 .floater {
-    position:absolute;
-    left:50%;
-    top:50%;
-    width:40px;
-    height:20px;
-    background-color: blue;
-    z-index:100;
-    transition: ease 0.5s;
-    translate:50% ;
+    
 }
